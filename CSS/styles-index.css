@@ -335,41 +335,35 @@ a{
   grid-area: cover-image;
   position: relative;
   z-index: -1;
-  margin-top: 64px;
+  /* margin-top: 64px; */
+  background: var(--black);
+  /* overflow: hidden; */
 }
-.coverimg {
-  padding-top: 64px;
-  width: 100%;
+.container_coverimg picture{
+  opacity: 50%;
 }
-.img-title {
+.img-title-container {
   position: absolute;
-  top: 70%;
-  left: 50%;
+  color: var(--white);
+  top: 40%;
+  left: 30%;
   transform: translate(-50%, -50%);
-  white-space: nowrap;
 }
-#img-title-alt-color {
-  color: #12a9ff;
-}
-.container_img-subtitle {
-  grid-area: cover-image-subtitle;
-  width: 100%;
-  height: 35px;
-  border-radius: 4px;
-  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.24);
-  background-color: var(--white);
-  position: relative;
-}
-.img-subtitle {
+.img-title-container h1{
+  /* display: block;
   position: absolute;
-  width: 100%;
-  margin: 10px 0px;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 16px;
-  font-weight: 300;
-  color: var(--dark-grey);
+  color: var(--white);
+  top: 40%;
+  left: 35%;
+  transform: translate(-50%, -50%); */
+}
+.img-title-container h2{
+  /* display: block;
+  position: absolute;
+  color: var(--white);
+  top: 40%;
+  left: 35%;
+  transform: translate(-50%, -50%); */
 }
 
 
